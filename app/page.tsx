@@ -9,7 +9,7 @@ import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <main className="black">
+    <main className="black overflow-hidden">
       <Navbar />
       <Hero />
       <Highlights />
